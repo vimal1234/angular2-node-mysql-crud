@@ -1,5 +1,5 @@
 # angular2-node-mysql-crud
-Angular 2 CRUD using Node js adn Mysql
+Angular 2 CRUD using Node js and Mysql
 
 
 # Steps to create angular 2 project with node js and mysql
