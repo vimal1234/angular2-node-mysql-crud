@@ -1,6 +1,6 @@
 var config = {
 	database: {
-		host:	  'localhost', 	// database host
+		host:	  'code-asr.epizy.com', 	// database host
 		user: 	  'epiz_20278099', 		// your database username
 		password: 'Salman@5', 		// your database password
 		port: 	  3306, 		// default MySQL port
