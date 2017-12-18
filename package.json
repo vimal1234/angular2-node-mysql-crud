@@ -4,8 +4,20 @@
   "description": "Angular 2 CRUD with node js and mysql/ MEAN stack application",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ng": "ng",
+    "start": "node app.js",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot -prod"
   },
+    "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
+  },
+  "private": true,
   "author": "ahmed sharief",
   "license": "ISC",
   "dependencies": {
