@@ -112,7 +112,7 @@ app.use(bodyparser.json());
 
 
 //static files 
-app.use(express.static(path.join(__dirname,'public')));
+app.use(express.static(path.join(__dirname,'/dist')));
 
 //routes
 app.set('view engine', 'ejs')
