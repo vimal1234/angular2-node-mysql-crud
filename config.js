@@ -1,10 +1,10 @@
 var config = {
 	database: {
-		host:	  'localhost', 	// database host
-		user: 	  'root', 		// your database username
-		password: '', 		// your database password
+		host:	  'sql12.freesqldatabase.com', 	// database host
+		user: 	  'sql12211355', 		// your database username
+		password: 'yDYqRuqql4', 		// your database password
 		port: 	  3306, 		// default MySQL port
-		db: 	  'employee' 		// your database name
+		db: 	  'sql12211355' 		// your database name
 	},
 	server: {
 		host: '127.0.0.1',
