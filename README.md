@@ -12,11 +12,13 @@ To create an angular 2 crud app we need a mysql database, angular cli installed 
 2. Create table using this 
 
    ```
-   CREATE TABLE `users`
-      `id` int(10) AUTO INCREMENT PRIMARY KEY,
-      `name` varchar(100),
-      `age` varchar(100),
-      `email` varchar(100)
+      CREATE TABLE  `users` (
+      `id` INT( 100 ) NOT NULL ,
+      `name` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+      `age` VARCHAR( 100 ) NOT NULL ,
+      `email` VARCHAR( 100 ) NOT NULL
+      ) 
+
    ```
       
 3. Create server side app using the following commands
