@@ -28,7 +28,7 @@ To create an angular 2 crud app we need a mysql database, angular cli installed 
      npm init
      npm install express --save
      npm install mysql --save
-     npm install mongoose cors body-parser --save
+     npm install cors body-parser --save
 ```
 4. Create client side app using the following commands
 ```
